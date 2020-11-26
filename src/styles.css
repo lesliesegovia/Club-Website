@@ -1,3 +1,4 @@
+
 html{
   scroll-behavior: smooth;
 }
@@ -53,7 +54,7 @@ body{
   }
 
   .heading{
-    background-image: url("assets/blue.jpeg");
+    background-image: url("assets/board-background.jpg");
     background-size: cover;
     /* opacity: 70%;
     z-index: -1; */

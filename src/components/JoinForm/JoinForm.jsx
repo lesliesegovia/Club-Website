@@ -9,7 +9,6 @@ function JoinForm(){
 
     return (
         <div class="formContainer">
-        <h1>Join the club !</h1>
             <form className="form" onSubmit={collectMemberInfo} >
                 First name:<br/>
                 <input type="text" name="firstname"/><br/>

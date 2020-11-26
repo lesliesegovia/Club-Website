@@ -2,12 +2,15 @@ import React from "react";
 import "../styles.css";
 import Navbar from "./Navbar";
 import AboutCard from "./AboutCard";
-import MemberCard from "./MemberCards/MemberCard";
-import ProjectCard from "./ProjectCards/ProjectCards";
+import ProjectCard from "./ProjectCards/ProjectCard";
+import MemberCards from "./MemberCard/MemberCard";
 import logo from "../assets/new_light.png"
 import placeholder from "../assets/placeholder.png";
-import president from "../assets/president.jpg";
 import JoinForm from "./JoinForm/JoinForm";
+import webIcon from "../assets/web-icon.png";
+import mobileIcon from "../assets/mobile-icon.png";
+import gameIcon from "../assets/game-icon.png";
+
 
 
 
@@ -47,99 +50,96 @@ function App(){
                 <h1 className="main-titles">Meet the Team</h1>
             {/* CONTENT */}
             <div className="board">
-                <MemberCard
-                    img = {president}
-                    name = "Leslie Segovia"
-                    position = "President/Founder"
-                    major = "CS Major"
-                    fact = "Loves lattes"
-                    linkedin = "https://www.linkedin.com/in/lesliesegovia"
-                />
-                <MemberCard
-                    img = {president}
-                    name = "Jenelle Maximo"
-                    position = "Vice President"
-                    major = "CS Major"
-                    fact = "Loves frappachinos"
-                    linkedin = "https://www.linkedin.com/in/lesliesegovia"
-                />
-                <MemberCard
-                    img = {president}
-                    name = "Jesica Lopez"
-                    position = "Treasurer"
-                    major = "CS Major"
-                    fact = "Loves iced coffee"
-                    linkedin = "https://www.linkedin.com/in/lesliesegovia"
-                />
 
-                <MemberCard
-                    img = {president}
-                    name = "Winston Pham"
-                    position = "Committee Chair"
-                    major = "CS Major"
-                    fact = "Loves frappachinos"
-                    linkedin = "https://www.linkedin.com/in/lesliesegovia"
-                />
+                     <MemberCards
+                        img = {placeholder}
+                        name = "Leslie Segovia"
+                        position = "placeholder/Founder"
+                        description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+                    />
+                    
+                    <MemberCards
+                        img = {placeholder}
+                        name = "Jennelle Maximo"
+                        position = "Vice placeholder"
+                        description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+                    />
 
-                <MemberCard
-                    img = {president}
-                    name = "Ricardo Medina"
-                    position = "Committee Chair"
-                    major = "CS Major"
-                    fact = "Loves tea"
-                    linkedin = "https://www.linkedin.com/in/lesliesegovia"
-                />
+                    <MemberCards
+                        img = {placeholder}
+                        name = "Jesica L. De Leon"
+                        position = "Treasure"
+                        description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor" 
+                    />
 
-                <MemberCard
-                    img = {president}
-                    name = "Richard Cross"
-                    position = "Advisor"
-                    major = "CS Major"
-                    fact = "Loves black coffee"
-                    linkedin = "https://www.linkedin.com/in/lesliesegovia"
-                />
+                    <MemberCards
+                        img = {placeholder}
+                        name = "Winston Pham"
+                        position = "Committee Chair"
+                        description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor" 
+                    />
+
+                    <MemberCards
+                        img = {placeholder}
+                        name = "Ricardo Medina"
+                        position = "Committee Chair"
+                        description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor" 
+                    />
+
+                    <MemberCards
+                        img = {placeholder}
+                        name = "Richard Cross"
+                        position = "Advisor"
+                        description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor" 
+                    />
+                
+                
             </div>
             </section>
               
             {/* --------------------- PROJECTS SECTION -------------------*/}
             <section id="projects">
             {/* TITLE */}
-            <h1 id="projects" className="main-titles">Projects</h1>            
+            <h1 className="main-titles">Projects</h1>            
             
             {/* CONTENT */}
             <div className="projects">
 
-                <div className="project-sections">
-                 <div>
-      
-                 </div>   
                     <ProjectCard
-                        img = {president}
-                        name = "Leslie Segovia"
-                        position = "President/Founder"
-                        description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
-                    />
-                    
-                    <ProjectCard
-                        img = {president}
-                        name = "Jennelle Maximo"
-                        position = "Vice President"
-                        description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
-                    />
-
-                    <ProjectCard
-                        img = {president}
-                        name = "Jesica L. De Leon"
-                        position = "President"
-                        description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor" 
-                    />
-
-                </div>
+                    img = {webIcon}
+                    name = "Web Dev"
+                    position = "Details"
+                    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+                    // major = "CS Major"
+                    // fact = "Loves lattes"
+                    // linkedin = "https://www.linkedin.com/in/lesliesegovia"
+                />
+                <ProjectCard
+                    img = {mobileIcon}
+                    name = "Mobile Dev"
+                    position = "Details"
+                    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+                    // major = "CS Major"
+                    // fact = "Loves frappachinos"
+                    // linkedin = "https://www.linkedin.com/in/lesliesegovia"
+                />
+                <ProjectCard
+                    img = {gameIcon}
+                    name = "Game Dev"
+                    position = "Details"
+                    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+                    // major = "CS Major"
+                    // fact = "Loves iced coffee"
+                    // linkedin = "https://www.linkedin.com/in/lesliesegovia"
+                />
+              
             </div>
             </section>
+
+            
             {/* --------------------- JOIN SECTION -------------------*/}
              {/* TITLE */}
-             <h1 id="join" className="main-titles">Join</h1>            
+             <h1 id="join" className="main-titles">Join the club!</h1>            
             
             {/* CONTENT */}
             <div className="join">
