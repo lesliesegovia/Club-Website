@@ -1,0 +1,23 @@
+
+.form{
+  justify-content: center;
+  align-items: center;
+}
+
+  .formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  input {
+    margin-bottom: 5vh;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    background-color:transparent;
+    outline: none;
+
+    caret-color: white;
+  }
