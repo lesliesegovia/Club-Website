@@ -28,10 +28,11 @@
     margin: 0px 20px;
     font-size: 14px;
     font-family: 'Montserrat',Helvetica,Arial,sans-serif;
+    color: #555;
   }
 
-  .position {
-    color: rgba(45, 148, 189, 0.781);
+  .section {
+    color: rgb(136, 33, 233);
     font-size: 18px;
     font-family: 'Montserrat',Helvetica,Arial,sans-serif;
   }

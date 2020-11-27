@@ -7,22 +7,19 @@ body{
   margin: 0px;
 }
 
-.navbar {
-    overflow: hidden;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 300px;
-  }
+.navbar{
+  text-align: center;
+  padding-top: 30px;
+}
   
   .navbar a {
-    float: left;
     /* color: #8a8a8a; */
-    color: rgb(53, 119, 163);
+    color: rgb(156, 156, 156);
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 20px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .navbar a:hover {
@@ -46,8 +43,8 @@ body{
 
   /* Home page Section */
   .heading #main-logo{
-      width: auto;
-      height: 300px;
+      width: 400px;
+      height: 400px;
       display: block;
       margin-right: auto;
       margin-left: auto;
@@ -63,28 +60,39 @@ body{
 
   /* About Section */
   #about{
-
+    width: 65%;
+    margin: auto;
+    margin: 5% auto 5% auto;
   }
   .about-content{
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
   }
   
   .about-info img {
-    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    /* border-radius: 50%;
     border: 7px solid #fff;
     width: 25%;
     float: left;
-    margin-right: 30px;
+    margin-right: 30px; */
   }
 
   .about-info{
     width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
+    text-align: center;
     line-height: 2;
+    margin: 0px 30px 0px 30px;
   }
 
+  .about-info p{
+    color: #555;
+  }
+
+  
+  
+  
   #meet-team-section{
      background-color: #f6f6f6;
      padding: 50px 0px;
@@ -103,6 +111,29 @@ body{
     font-family: Montserrat,Helvetica,Arial,sans-serif;
     font-style: normal;
     letter-spacing: -.2px;
+    color: #555;
   }
 
+  #contact{
+    background-image: url("assets/board-background.jpg");
+    background-size: cover;
+    height: 30vh;
+
+  }
+
+  footer h1{
+    color: whitesmoke;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+  }
+
+  footer p{
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  .contact-icon{
+    width: 20px;
+    height: 20px;
+  }
  

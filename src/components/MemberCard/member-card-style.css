@@ -56,6 +56,10 @@
     transform: rotateY(180deg);
   }
 
+  .flip-card-back h1{
+    font-size: 15px;
+  }
+
   .display-name{
     backface-visibility: hidden;
     position: absolute;
@@ -73,4 +77,5 @@
 
   .back-card-text{
     padding: 3px;
+    font-size: 13px;
   }

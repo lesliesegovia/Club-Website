@@ -1,5 +1,6 @@
 import React from "react";
 import "./member-card-style.css"
+import linkedIn from "../../assets/linkedin-icon.png";
 
 function MemberCard(props){
     return (
@@ -14,8 +15,11 @@ function MemberCard(props){
                             </span>
                         </div>
                         <div class="flip-card-back">
-                            <h1>Description</h1>
-                            <p className="back-card-text">{props.description}</p>
+                            <h1>About me</h1>
+                            <p className="back-card-text">{props.major}</p>
+                            <p className="back-card-text">{props.fact}</p>
+                            <p className="back-card-text">{props.bio}</p>
+                            <a href={props.linkedin} class="button"><img class="project-card-icon" src={linkedIn}/></a>
                         </div>
                     </div>
                 </div>

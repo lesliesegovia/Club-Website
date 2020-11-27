@@ -8,7 +8,7 @@ function ProjectCards(props){
                 {/* <img className="project-img" src={props.img} /> */}
                 <img className="project-icon" src={props.img} />
                 <h1>{props.name}</h1>
-                <p className="position">{props.position}</p>
+                <p className="section">{props.section}</p>
                 <p id="project-description">{props.description}</p>
                 {/* <p>{props.major}</p>
                 <p>{props.fact}</p>
